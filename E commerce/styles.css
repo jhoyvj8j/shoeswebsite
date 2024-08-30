@@ -1,0 +1,520 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #e74c3c;
+}
+
+.logo span {
+    color: #b03a2e;
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero {
+    background-color: #e74c3c;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content img {
+    width: 300px;
+    height: auto;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 24px;
+}
+
+.hero-text span {
+    font-weight: bold;
+    background-color: #fff;
+    color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero-text button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.categories ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+}
+
+.categories li:hover {
+    color: #e74c3c;
+}
+
+.products {
+    padding: 40px 20px;
+}
+
+.products h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 150px;
+    height: auto;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.nike-shoes-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.shoe-container {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.shoe-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.info-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #555;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.CMKozzpGKMQ8EpidY5AghgHaDq&pid=Api&P=0&h=220'); /* Add your banner image here */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 600px;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.shop-now {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.shop-now:hover {
+    background-color: #cc0000;
+}
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.shoes-banner {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.shoes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.shoe-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shoe-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.shoe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.shoe-item button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.shoe-item button:hover {
+    background-color: #cc0000;
+    transform: translateY(-5px);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.g1ycT5apXQv7cKqrKcMDhgHaDa&pid=Api&P=0&h=220'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 600px;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.learn-more {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #0056b3;
+
+
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.nike-order-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.shoe-details {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.shoe-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.details-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.details-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #FF5733;
+    margin-bottom: 15px;
+}
+
+.offer {
+    font-size: 1.2rem;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.order-form {
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.order-form select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 20px;
+}
+
+.order-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #218838;
+}
+
+.payment-options {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payment-methods {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.nike-order-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.shoe-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.shoe-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.shoe-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.shoe-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #FF5733;
+    margin-bottom: 15px;
+}
+
+.order-form {
+    margin-bottom: 15px;
+}
+
+.order-form label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.order-form select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.order-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #218838;
+}
+
+.payment-options {
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.payment-methods {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
